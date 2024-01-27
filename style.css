@@ -1,0 +1,43 @@
+body {
+    font-size: px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    margin: 0px
+}
+h1 {
+    font-size: 2.5rem
+    margin-bottom: 10px;
+    padding: 15px;
+}
+header{
+    padding: 20px;
+    text-align: centre;
+    color: #ffff
+}
+nav {
+  display: flex;
+  background-color: #d8a47f;
+  background: #13addd;
+  line-height: 0px;
+}
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #aaafff;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start:px;
+}
