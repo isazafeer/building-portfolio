@@ -1,5 +1,5 @@
 body {
-    font-size: px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -7,11 +7,17 @@ body {
     margin: 0px
 }
 h1 {
+  color: #ffff;
     font-size: 2.5rem
     margin-bottom: 10px;
     padding: 15px;
 }
-header{
+ul {
+  font-size: 20px;
+  text-align: center;
+  margin: auto
+}
+head {
     padding: 20px;
     text-align: centre;
     color: #ffff
@@ -19,11 +25,11 @@ header{
 nav {
   display: flex;
   background-color: #d8a47f;
-  background: #13addd;
+  background: #000;
   line-height: 0px;
 }
 nav a {
-  color: #13293d;
+  color: #ffff;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -32,12 +38,5 @@ nav a {
 nav a:hover {
   background-color: #aaafff;
 }
-ul{
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start:px;
-}
+<!--NAV BAR--!>
+
