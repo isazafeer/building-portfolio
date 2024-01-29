@@ -2,45 +2,43 @@ body {
     font-size: 15px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    max-height: 50px;
     justify-content: flex-start;
-    margin: 0px
+    color: #eeeddd
 }
 head {
-    padding: 20px;
+    padding: 10vh;
     text-align: centre;
     color: #ffff
 }
-h1 {
-  color: #ffff;
-    font-size: 2.5rem
-    margin-bottom: 10px;
-    padding: 15px;
+.h1 {
+  color: #000;
+    font-size: 3rem;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
 }
 ul {
   font-size: 20px;
-  text-align: center;
+  text-align: top;
   margin: auto
 }
 nav {
   display: flex;
-  background-color: #d8a47f;
-  background: #000;
-  line-height: 0px;
+  flex-direction: column;
 }
 nav a {
-  color: #ffff;
-  padding: 14px 20px;
+  color: #fff;
+  padding: 70px;
   text-decoration: none;
   text-align: center;
 }
 nav a:hover {
-  background-color: #aaafff;
+color: #aaafff;
 }
-<!--NAV BAR--!>
---------------------------
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
+    color: #fff
 
 }
 html, body {
@@ -48,33 +46,29 @@ html, body {
     font-size: 15px;
     line-height: 1.5;
 }
-
-<!--NAV--!>
-
-div.gallery {
+.gallery {
   border: 1px solid #ccc;
+  width: 20%;
 }
 
-div.gallery:hover {
+.gallery:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
-
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
-{
-  box-sizing: border-box;
-}
+
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 100%;
+  display: flex;
 }
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -86,8 +80,5 @@ div.desc {
     width: 100%;
   }
 }
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
