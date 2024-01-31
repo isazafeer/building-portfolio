@@ -27,3 +27,4 @@ One section that I found more difficult than the others was adding in an image g
 
 Here is a link to my depoyed application:
 
+https://isazafeer.github.io/week2-challenge/
