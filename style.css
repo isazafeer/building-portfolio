@@ -1,54 +1,70 @@
 body {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    max-height: 50px;
-    justify-content: flex-start;
-    color: #eeeddd
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  max-height: 50px;
+  justify-content: flex-start;
+  color: #eeeddd
 }
+
 head {
-    padding: 10vh;
-    text-align: centre;
-    color: #ffff
+  padding: 10vh;
+  text-align: centre;
+  color: #ffff
 }
+
 .h1 {
   color: #000;
-    font-size: 3rem;
-    margin: 10px;
-    text-align: center;
-    display: inline-block;
+  font-size: 3rem;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
 }
+
 ul {
   font-size: 20px;
   text-align: top;
   margin: auto
 }
+
 nav {
   display: flex;
   flex-direction: column;
 }
+
 nav a {
   color: #fff;
   padding: 70px;
   text-decoration: none;
   text-align: center;
 }
-nav a:hover {
-color: #aaafff;
-}
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-    color: #fff
 
+nav a:hover {
+  color: #aaafff;
 }
-html, body {
-    font-family: Verdana,sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff
 }
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 .gallery {
   border: 1px solid #ccc;
   width: 20%;
+  min-height: 300px;
 }
 
 .gallery:hover {
@@ -59,26 +75,28 @@ html, body {
   width: 100%;
   height: auto;
 }
+
 .desc {
   padding: 15px;
   text-align: center;
 }
 
-.responsive {
+.container {
   padding: 0 6px;
-  float: left;
   width: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
   }
-}
-
-
