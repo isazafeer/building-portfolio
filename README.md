@@ -19,3 +19,11 @@ MacBook Pro:
 Strengths:
 
 I was able to write the HTML file fairly fluently, with some assistance from my independant research. Being able to implement elements such as text, images, buttons, achors, and links was no issue as they are the foundation/basics of most web pages.
+In addition, I was able to write some CSS effectively, with the more difficult sections requiring research or looking over previous examples from lessons.
+
+Weaknesses:
+
+One section that I found more difficult than the others was adding in an image gallery, and displaying them in a row. Initally, my images repeatedly displayed in a colunm. After some independant research, I realised that the  `div ` tags needed rearranging, and `section` and `containter` tags needed to be implemented.
+
+Here is a link to my depoyed application:
+
