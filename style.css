@@ -6,12 +6,13 @@ body {
   justify-content: flex-start;
   color: #eeeddd
 }
-
 head {
   padding: 10vh;
   text-align: centre;
   color: #ffff
 }
+
+/* Navigation*/
 
 .h1 {
   color: #000;
@@ -20,28 +21,26 @@ head {
   text-align: center;
   display: inline-block;
 }
-
 ul {
   font-size: 20px;
   text-align: top;
   margin: auto
 }
-
 nav {
   display: flex;
   flex-direction: column;
 }
-
 nav a {
   color: #fff;
   padding: 70px;
   text-decoration: none;
   text-align: center;
 }
-
 nav a:hover {
   color: #aaafff;
 }
+
+/*Body*/
 
 body,
 h1,
@@ -53,13 +52,14 @@ h6 {
   font-family: "Montserrat", sans-serif;
   color: #fff
 }
-
 html,
 body {
   font-family: Verdana, sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
+
+/*My Portfolio*/
 
 .gallery {
   border: 1px solid #ccc;
@@ -87,16 +87,31 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
+/*Footer*/
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: "Montserrat", sans-serif;
+    color: #fff
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+/*Media Query*/
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
-  }
+}
 
   @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
-    }
-  }
+}
